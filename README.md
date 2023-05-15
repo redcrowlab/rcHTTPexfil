@@ -1,5 +1,7 @@
 #######################################################################
+
 Red Crow Labs 
+
 #######################################################################
 
 rcHTTPexfil is a shell script which takes in a text file, base64 encodes it, and attempts to transmit it to a specified IP and Port using HTTP. This tool tries various methods for transmitting including curl, wget, netcat, and telnet.
