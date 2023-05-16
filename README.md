@@ -3,6 +3,7 @@
 Red Crow Labs 
 
 #######################################################################
+
 DESCRIPTION: 
 
 rcHTTPexfil is a shell script which takes in a text file, base64 encodes it, and attempts to transmit it to a specified IP and Port using HTTP. This tool tries various methods for transmitting including curl, wget, netcat, and telnet.
@@ -10,11 +11,13 @@ rcHTTPexfil is a shell script which takes in a text file, base64 encodes it, and
 This is a basic and insecure data exfiltration tool which is useful when doing testing on a system and there is a need to copy data from it to a central host for analysis.
 
 ========================================================================= INSTALL:
+
 INSTALLATION:
 
 git clone https://github.com/redcrowlab/rcHTTPexfil.git
 
 ========================================================================= USAGE:
+
 USAGE:
 
 chmod 755 rcHTTPexfil.sh
